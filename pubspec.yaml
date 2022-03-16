@@ -17,6 +17,8 @@ dependencies:
   animated_bottom_navigation_bar: ^0.3.2
   circular_reveal_animation: ^2.0.0
   favorite_button: ^0.0.4
+  dependencies:
+  flutter_emoji: ">= 2.0.0"
 
 dev_dependencies:
   flutter_test:
