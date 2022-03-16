@@ -6,13 +6,12 @@ class BottomBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
-      color: Colors.blueGrey[800],
+      color: Colors.white,
       child: Row(
-        mainAxisSize: MainAxisSize.max,
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           CircleAvatar(
-            backgroundImage: AssetImage("images/n1.jpeg"),
+            backgroundImage: AssetImage("assets/images/profile.jpg"),
+            radius: 40,
           ),
           Padding(
             padding: const EdgeInsets.only(
@@ -22,11 +21,13 @@ class BottomBar extends StatelessWidget {
               width: 300,
               child: Text("Write Your Comment Here ...",
                   style: TextStyle(
-                      color: Colors.grey, fontWeight: FontWeight.w900)),
+                      fontSize: 20,
+                      color: Colors.grey,
+                      fontWeight: FontWeight.bold)),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(30.0)),
                   color: Colors.white),
-              padding: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 16.0),
+              padding: EdgeInsets.only(left: 10),
             ),
           ),
         ],

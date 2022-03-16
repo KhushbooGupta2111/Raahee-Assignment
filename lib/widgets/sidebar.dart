@@ -19,7 +19,7 @@ class Sidebar extends StatelessWidget {
             SizedBox(
               width: 25,
               child: FavoriteButton(
-                iconSize: 40,
+                iconSize: 60,
                 isFavorite: true,
                 // iconDisabledColor: Colors.white,
                 valueChanged: (_isFavorite) {
@@ -31,8 +31,8 @@ class Sidebar extends StatelessWidget {
               height: 10,
             ),
             Text(
-              '735',
-              style: TextStyle(color: Colors.white),
+              '312',
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
             SizedBox(
               height: 10,
@@ -40,13 +40,14 @@ class Sidebar extends StatelessWidget {
             Icon(
               Icons.sms,
               color: Colors.white,
+              size: 50,
             ),
             SizedBox(
               height: 10,
             ),
             Text(
-              '63  ',
-              style: TextStyle(color: Colors.white),
+              '20 ',
+              style: TextStyle(fontSize: 20, color: Colors.white),
             ),
             SizedBox(
               height: 10,
@@ -54,6 +55,7 @@ class Sidebar extends StatelessWidget {
             Icon(
               Icons.share,
               color: Colors.white,
+              size: 50,
             ),
             SizedBox(
               height: 10,

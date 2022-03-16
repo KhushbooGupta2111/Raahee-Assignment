@@ -17,7 +17,7 @@ class BottomBar extends StatelessWidget {
             icon: Icon(
               Icons.home_filled,
               color: Colors.black,
-              size: 30,
+              size: 40,
             ),
             onPressed: () {},
           ),
@@ -25,7 +25,7 @@ class BottomBar extends StatelessWidget {
             icon: Icon(
               Icons.search,
               color: Colors.black,
-              size: 30,
+              size: 40,
             ),
             onPressed: () {},
           ),
@@ -35,12 +35,12 @@ class BottomBar extends StatelessWidget {
                 icon: Icon(
                   Icons.mail,
                   color: Colors.black,
-                  size: 30,
+                  size: 40,
                 ),
                 onPressed: () {},
               ),
               Positioned(
-                right: 10,
+                right: 0,
                 top: 10,
                 child: Icon(
                   Icons.brightness_1,
@@ -54,7 +54,7 @@ class BottomBar extends StatelessWidget {
             icon: Icon(
               Icons.person,
               color: Colors.black,
-              size: 30,
+              size: 40,
             ),
             onPressed: () {},
           ),
